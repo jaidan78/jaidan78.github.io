@@ -1,0 +1,241 @@
+@media(prefers-reduced-motion: no-preference){
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#page-wrapper{
+    position: relative;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    background-color: #203A43;
+}
+
+#header-img {
+    width: 128px;
+    height: 128px;
+    padding: 15px;
+}
+
+#nav-bar {
+        background: red;
+}
+
+#nav-bar li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color:springgreen;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    padding-top: 60px
+}
+
+#hero{
+    display: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#hero > h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    color: red;
+}
+
+#hero input[type='email']{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+.btn {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: magenta;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#hero input[type='submit']:hover {
+    background-color: crimson;
+    transition: background-color 1s;
+}
+
+h1 {
+    
+    margin-block-start: 0,83em;
+    margin-block-end: 0,83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#features {
+    margin-top:  50px;
+    display: absolute;
+}
+
+.grid {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ef233c;
+    padding: 10px;
+}
+
+#HowItWorks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% /3);
+    max-width: 300px;
+    margin: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.box ul {
+    padding: 10px;
+}
+
+.box li{
+    list-style: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.product {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    background-color: #ddd;
+    color: red;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid red;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+#paint {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.paint1 {
+    background-color: red;
+}
+
+.paint2 {
+    background-color: blue;
+}
+
+.paint3 {
+    background-color: green;
+}
+
+.price {
+    
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+
+
+.line {
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.author {
+    padding-top:  10px;
+    text-align: center;
+}
