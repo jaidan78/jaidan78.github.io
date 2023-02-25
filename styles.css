@@ -33,13 +33,23 @@ body {
     padding: 0;
     margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  pading-top: 60px;
+}
  
 .line {
+  width: 100%;
   border: 1px solid back;
 }
 
-.copyright {
-  align-content: center;
+.author {
+  text-align: center;
   font-weight: bolder;
   font-size: 25px;
+  padding-top: 10px;
 }
