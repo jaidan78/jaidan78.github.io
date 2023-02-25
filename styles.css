@@ -34,4 +34,12 @@ body {
     margin: 0;
 }
  
+.line {
+  border: 1px solid back;
+}
 
+.copyright {
+  align-content: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
